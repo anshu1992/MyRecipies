@@ -1,0 +1,52 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+
+body{
+
+ 
+  background: -webkit-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* W3C */
+        
+        
+        
+}
+
+.jumbotron{
+ 
+ 
+  background: -webkit-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* W3C */
+        
+        
+        
+}
+
+.box-shadow{
+    -moz-box-shadow: 1px 0px 6px #000000;
+    -webkit-box-shadow: 1px 0px 6px #000000;
+    box-shadow: 1px 0px 6px #000000;
+}
+
+.transparent{
+    background-color: rgba(117, 71, 25, 0.2);
+    background: rgba(117, 71, 25, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.text-shadow{
+    text-shadow: -1px -1px 1px rgba(150, 150, 150, 1);
+}
+
+.footer{
+  margin-top: 50px;
+  border-top: 1px solid #eaeaea;
+  color:#191919;
+  padding-top: 25px;
+}
