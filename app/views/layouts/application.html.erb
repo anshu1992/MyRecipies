@@ -2,13 +2,14 @@
 <html>
 <head>
   <title>MY RECIPES</title>
+  <%= favicon_link_tag 'edit.png' %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
   <%= render "layouts/navigation" %>
-  <div class="container">
+  <div class="container top-padding">
     <%= yield %>
     <%= render "layouts/footer" %>
   </div>
