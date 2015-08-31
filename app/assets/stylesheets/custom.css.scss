@@ -13,9 +13,10 @@
 }
 
 .box-shadow{
-    -moz-box-shadow: 1px 0px 6px #000000;
-    -webkit-box-shadow: 1px 0px 6px #000000;
-    box-shadow: 1px 0px 6px #000000;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  -webkit-box-shadow: 0 0 6px 0 rgba(2,2,2,0.91) ;
+  box-shadow: 0 0 6px 0 rgba(2,2,2,0.91) ;
 }
 
 .transparent{
